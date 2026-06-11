@@ -1,0 +1,9 @@
+tensorflow
+opencv-python
+numpy
+scikit-learn
+pillow
+fastapi
+uvicorn
+python-multipart
+httpx2

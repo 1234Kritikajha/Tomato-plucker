@@ -1,0 +1,10 @@
+{
+  "name": "tomato-ripeness-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node frontend/dev-server.js",
+    "dev:backend": "./tfenv/bin/uvicorn app:app --host 127.0.0.1 --port 8000"
+  }
+}
