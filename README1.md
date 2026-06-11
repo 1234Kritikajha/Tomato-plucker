@@ -1,19 +1,21 @@
-Tomato Annotation Lab (Windows Guide)
+## Tomato Annotation Lab (Windows Guide)
+
 This guide helps you set up, run, and manage the Tomato Annotation Lab on a Windows computer.
-What You Need
+
+## What You Need
 
 * Windows Command Prompt (CMD) or PowerShell
 * Python installed and added to your Windows PATH
 * Node.js / npm installed for Windows
 
 ------------------------------
-1. Open The Project Folder
+## 1. Open The Project Folder
 Open Command Prompt (CMD) and run:
 
 cd C:\Users\sysname\Documents\tomatoplucker
 
 (Note: Replace sysname with your actual Windows username, or paste your exact folder path).
-2. Activate Python Environment
+## 2. Activate Python Environment
 Run:
 
 .\tfenv\Scripts\activate
@@ -22,12 +24,12 @@ Your terminal prompt will now change to show:
 
 (tfenv) C:\Users\sysname\Documents\tomatoplucker>
 
-3. Install Python Packages
+## 3. Install Python Packages
 Run this once to install dependencies:
 
 pip install -r requirements.txt
 
-4. Start Backend API
+## 4. Start Backend API
 Keep this terminal window open.
 
 .\tfenv\Scripts\uvicorn app:app --host 127.0.0.1 --port 8000
@@ -37,7 +39,7 @@ Uvicorn running on http://127.0.0.1:8000
 Backend API interactive docs:
 http://127.0.0.1:8000/docs
 
-5. Start Frontend
+## 5. Start Frontend
 Open a second Command Prompt window.
 Navigate to your folder and start the frontend:
 
@@ -48,8 +50,9 @@ When it is working, you will see:
 Tomato frontend running at http://127.0.0.1:5173
 Open this address in your web browser:
 http://127.0.0.1:5173
+
 ------------------------------
-Daily Run Commands (Windows Quick Start)## Terminal 1 (Backend):
+## Daily Run Commands (Windows Quick Start)## Terminal 1 (Backend):
 
 cd C:\Users\sysname\Documents\tomatoplucker
 .\tfenv\Scripts\activate
