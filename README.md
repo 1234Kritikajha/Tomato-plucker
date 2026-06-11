@@ -26,7 +26,7 @@ Expected outcome: the app does not only label images once; it keeps collecting c
 Open Terminal and run:
 
 ```bash
-cd /Users/navinkumarjha/Documents/tomatoplucker
+cd /Users/sysname/Documents/tomatoplucker
 ```
 
 ## 2. Activate Python Environment
@@ -78,7 +78,7 @@ Open a second Terminal window.
 Run:
 
 ```bash
-cd /Users/navinkumarjha/Documents/tomatoplucker
+cd /Users/sysname/Documents/tomatoplucker
 npm run dev
 ```
 
@@ -99,7 +99,7 @@ http://127.0.0.1:5173
 Terminal 1:
 
 ```bash
-cd /Users/navinkumarjha/Documents/tomatoplucker
+cd /Users/sysname/Documents/tomatoplucker
 source tfenv/bin/activate
 ./tfenv/bin/uvicorn app:app --host 127.0.0.1 --port 8000
 ```
@@ -107,7 +107,7 @@ source tfenv/bin/activate
 Terminal 2:
 
 ```bash
-cd /Users/navinkumarjha/Documents/tomatoplucker
+cd /Users/sysname/Documents/tomatoplucker
 npm run dev
 ```
 
